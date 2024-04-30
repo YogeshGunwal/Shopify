@@ -1,0 +1,20 @@
+$border-color: #ccc;
+
+.products-card {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.products-type-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.display-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}

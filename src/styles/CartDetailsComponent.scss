@@ -1,0 +1,22 @@
+$background-color: #f0f0f0;
+$border-color: #ccc;
+
+.cart-details-container {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  background-color: $background-color;
+  padding: 10px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  .cart-items,
+  .total-cart-price {
+    display: flex;
+
+    span {
+      margin-right: 10px;
+    }
+  }
+}
+
